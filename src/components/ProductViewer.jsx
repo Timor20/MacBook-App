@@ -13,12 +13,16 @@ const ProductViewer = () => {
 
     const isMobile = useMediaQuery({ query: "(max-width: 1024px)"});
 
+    const MacbookSize = scale === 0.06 ? '14"' : '16"'
+    const MacbookColor = color === "#2e2c2e" ? "Space Black" : "Space Gray"
+
   return (
     <section id="product-viewer">
         <h2>Take a closer look.</h2>
 
         <div className="controls">
             {/* <p className="info">MacBook Pro | Available in 14" & 16" in Space Gray & Dark colors</p> */}
+            <p className="info text-center">MacBook Pro {MacbookSize} in {MacbookColor}</p>
             
             <div className="flex-center gap-5 mt-5">
                 <div className="color-control">
