@@ -60,10 +60,6 @@ npm run build     # Create production build
 npm run preview   # Preview production build
 ```
 
-## 🤝 Contributing
-
-Pull requests are welcome! For major changes, open an issue first to discuss your ideas.
-
 ## 📜 License
 
 MIT License © 2025
