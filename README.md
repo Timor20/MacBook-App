@@ -1,16 +1,69 @@
-# React + Vite
+# MacBook App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, interactive Apple MacBook landing page built with **Vite**, **React**, and **Tailwind CSS**, featuring fully interactive **3D MacBook models** rendered with **Three.js**, **@react-three/fiber**, and **@react-three/drei**. Smooth animations and transitions are powered by **GSAP**.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* **Interactive 3D MacBook Model** using Three.js & React Three Fiber
+* **Smooth GSAP Animations** for transitions, feature reveals, and model interactions
+* **Responsive Layout** powered by `react-responsive`
+* **State Management** with Zustand
+* **Clean Utility CSS** using Tailwind
+* **GLTF JSX** for structured and easy-to-read 3D component modeling
+* **Vite Bundler** for fast development
+* **Reusable UI Components** using `clsx` for conditional styling
 
-## React Compiler
+## 🖥️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Frontend:** React, JavaScript, HTML, CSS
+* **Styling:** Tailwind CSS, clsx
+* **3D & Animation:** Three.js, @react-three/fiber, @react-three/drei, GSAP, GLTF JSX
+* **State Management:** Zustand
+* **Build Tool:** Vite
+* **Responsive Design:** react-responsive
 
-## Expanding the ESLint configuration
+## 📦 Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+# Clone the repository
+git clone https://github.com/Timor20/MacBook-App.git
+cd macbook-app
+
+# Install dependencies
+npm install
+
+# Start development server
+npm run dev
+```
+
+## 🎮 Interactivity
+
+* Rotate, zoom, and inspect the MacBook model using Three.js orbit controls.
+* GSAP powers **scroll-triggered animations**, **model transitions**, and **feature highlights**.
+* 3D models are parsed through **GLTF JSX**, allowing declarative 3D components inside React.
+
+## 📱 Responsive Design
+
+Thanks to **react-responsive**, the layout adapts seamlessly across:
+
+* Desktop
+* Tablet
+* Mobile
+
+Animations and 3D interactions gracefully adjust to device capabilities.
+
+## 🛠️ Scripts
+
+```bash
+npm run dev       # Start dev server
+npm run build     # Create production build
+npm run preview   # Preview production build
+```
+
+## 🤝 Contributing
+
+Pull requests are welcome! For major changes, open an issue first to discuss your ideas.
+
+## 📜 License
+
+MIT License © 2025
