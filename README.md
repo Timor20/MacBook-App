@@ -1,6 +1,6 @@
 # MacBook App
 
-A modern, interactive Apple MacBook landing page built with **Vite**, **React**, and **Tailwind CSS**, featuring fully interactive **3D MacBook models** rendered with **Three.js**, **@react-three/fiber**, and **@react-three/drei**. Smooth animations and transitions are powered by **GSAP**.
+A modern, interactive Apple MacBook landing page built with **Vite**, **React**, and **Tailwind CSS**, featuring fully interactive **3D MacBook models** rendered with **Three.js**, **React Three Fiber**, and **React Three Drei**. Smooth animations and transitions are powered by **GSAP**.
 
 ## 🚀 Features
 
@@ -17,10 +17,10 @@ A modern, interactive Apple MacBook landing page built with **Vite**, **React**,
 
 * **Frontend:** React, JavaScript, HTML, CSS
 * **Styling:** Tailwind CSS, clsx
-* **3D & Animation:** Three.js, @react-three/fiber, @react-three/drei, GSAP, GLTF JSX
+* **3D & Animation:** Three.js, React Three Fiber, React Three Drei, GSAP, GLTF JSX
 * **State Management:** Zustand
 * **Build Tool:** Vite
-* **Responsive Design:** react-responsive
+* **Responsive Design:** React Responsive
 
 ## 📦 Installation
 
